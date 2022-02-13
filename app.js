@@ -1,3 +1,13 @@
+// You can test the performance of these methods yourself
+// by using the JavaScript’s handy performance API:
+const a1 = performance.now(); // Start
+// some code..
+// some code..
+const a2 = performance.now(); // End
+console.log(`Time: ${a2 - a1}`); // Subtraction
+
+/* ************************************************** */
+/* ************************************************** */
 
 // O(1)
 const run1 = () => {
